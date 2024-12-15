@@ -55,24 +55,6 @@ There is no default password set initially. Users must set a password during the
 
 ---
 
-## Repository Structure
-```
-Security-Keypad-Embedded-System/
-├── Documentation/
-│   ├── CircuitDiagram.pdf   # Circuit schematic for hardware setup
-│   ├── Flowchart.png        # System flowchart
-│   └── ProjectDescription.txt
-├── SourceCode/
-│   ├── main.c               # Main application logic
-│   ├── lcd.c                # LCD driver
-│   ├── keypad.c             # Keypad driver
-│   └── eeprom.c             # EEPROM driver for password handling
-├── README.md                # Project documentation (this file)
-└── LICENSE                  # License information
-```
-
----
-
 ## Installation and Compilation
 1. Clone the repository:
    ```bash
