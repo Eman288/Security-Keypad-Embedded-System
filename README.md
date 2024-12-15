@@ -21,7 +21,7 @@ This project is an **Embedded System** implementation for a Security Keypad. It 
 ## Components
 ### Hardware:
 1. **Microcontroller:** AVR (e.g., ATmega32 or equivalent).
-2. **Keypad:** 4x4 matrix keypad for user input.
+2. **Keypad:** 4x3 matrix keypad for user input.
 3. **LCD:** 16x2 LCD for displaying messages.
 4. **Buzzer:** Used for alerts or error indications.
 5. **Power Supply:** Standard 5V DC.
