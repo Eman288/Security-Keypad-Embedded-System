@@ -7,7 +7,6 @@ This project is an **Embedded System** implementation for a Security Keypad. It 
 
 ## Hardware Design
 ![Hardware Design](design.jpg)  
-*(Replace the above with the correct path to your image in the repository)*
 
 ---
 
