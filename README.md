@@ -83,7 +83,7 @@ There is no default password set initially. Users must set a password during the
 3.  **Name:** Arwa Mostafa
     **GitHub Profile:** [https://github.com/ArwaMostafa19](https://github.com/ArwaMostafa19)
 4.  **Name:** Batoul Essam
-    **GitHub Profile:** //
+    **GitHub Profile:** [https://github.com/Batoul810](https://github.com/Batoul810)
 5.  **Name:** Yassmeen 
     **GitHub Profile:** [https://github.com/YasmeenFci](https://github.com/YasmeenFci)
 
