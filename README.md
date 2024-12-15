@@ -1,7 +1,7 @@
 # Security Keypad Embedded System
 
 ## Overview
-This project is an **Embedded System** implementation for a Security Keypad. It features a password-protected system that authenticates users and allows access based on predefined logic. The project is designed to work on a microcontroller, with hardware and software components integrated to achieve a secure and functional 
+This project is an **Embedded System** implementation for a Security Keypad. It features a password-protected system that authenticates users and allows access based on predefined logic. The project is designed to work on a microcontroller, with hardware and software components integrated to achieve a secure and functional setup.
 
 ---
 
