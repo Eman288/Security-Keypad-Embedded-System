@@ -5,9 +5,14 @@ This project is an **Embedded System** implementation for a Security Keypad. It 
 
 ---
 
+## Hardware Design
+![Hardware Design](design.jpg)  
+*(Replace the above with the correct path to your image in the repository)*
+
+---
+
 ## Features
 - **User Authentication:** Users must input the correct password to gain access.
-- **Password Change Option:** Users can update the password securely.
 - **Alert System:** Triggers alerts upon incorrect password attempts.
 - **Hardware Integration:** Includes keypad input and output display on an LCD.
 - **Embedded Software:** Developed in C using AVR microcontroller libraries.
@@ -41,14 +46,13 @@ This project is an **Embedded System** implementation for a Security Keypad. It 
 3. Power on the system.
 
 ### Default Password:
-The default password is `1234`. This can be changed after initial setup.
+There is no default password set initially. Users must set a password during the first operation.
 
 ### Operation:
 1. Enter the password on the keypad.
    - If correct, access is granted, and a success message is displayed.
    - If incorrect, an error message is displayed, and the buzzer will sound.
-2. To change the password, follow the instructions on the LCD.
-3. After 3 incorrect attempts, the system locks and triggers an alert.
+2. After 3 incorrect attempts, the system locks and triggers an alert.
 
 ---
 
@@ -87,19 +91,20 @@ Security-Keypad-Embedded-System/
 3. The password is checked against the stored value in the EEPROM:
    - **Correct Password:** Grants access.
    - **Incorrect Password:** Increments the failed attempt counter and triggers an alert after 3 consecutive failures.
-4. The user can update the password through a secure procedure.
 
 ---
 
-## Future Enhancements
-- Add support for an RTC (Real-Time Clock) module for logging failed attempts.
-- Introduce a mobile app interface via Bluetooth for remote password management.
-- Implement a fingerprint scanner for multi-factor authentication.
-
----
-
-## Contributing
-Contributions are welcome! If you have suggestions or enhancements, feel free to submit a pull request or open an issue in the repository.
+## contributors
+1.  **Name:** Eman Tamam
+    **GitHub Profile:** [https://github.com/Eman288](https://github.com/Eman288)
+2.  **Name:** Aya Sabry
+    **GitHub Profile:** [https://github.com/ayasabry36](https://github.com/ayasabry36)
+3.  **Name:** Arwa Mostafa
+    **GitHub Profile:** [https://github.com/ArwaMostafa19](https://github.com/ArwaMostafa19)
+4.  **Name:** Batoul Essam
+    **GitHub Profile:** //
+5.  **Name:** Yassmeen 
+    **GitHub Profile:** [https://github.com/YasmeenFci](https://github.com/YasmeenFci)
 
 ---
 
@@ -108,14 +113,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-## Contact
-For questions or support, please reach out to the repository owner:
-- **Name:** Eman288
-- **Email:** [Your Email Here]
-- **GitHub Profile:** [https://github.com/Eman288](https://github.com/Eman288)
-
----
-
 Thank you for checking out this project! Your feedback and contributions are greatly appreciated.
-
-
